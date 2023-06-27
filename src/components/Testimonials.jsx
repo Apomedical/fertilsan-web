@@ -1,22 +1,22 @@
 import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
-import vegan from "/Users/mirzet/Desktop/fertilsan_app/src/assets/vegan.png";
-import lactose from "/Users/mirzet/Desktop/fertilsan_app/src/assets/lactose.png";
-import nopers from "/Users/mirzet/Desktop/fertilsan_app/src/assets/nopers.png";
-import gluten from "/Users/mirzet/Desktop/fertilsan_app/src/assets/gluten.png";
-import noanimal from "/Users/mirzet/Desktop/fertilsan_app/src/assets/noanimal.png";
+import vegan from "/src/assets/vegan.png";
+import lactose from "/src/assets/lactose.png";
+import nopers from "/src/assets/nopers.png";
+import gluten from "/src/assets/gluten.png";
+import noanimal from "/src/assets/noanimal.png";
 
-import fillers from "/Users/mirzet/Desktop/fertilsan_app/src/assets/fillers.png";
-import glutenf from "/Users/mirzet/Desktop/fertilsan_app/src/assets/glutenf.png";
-import nopersf from "/Users/mirzet/Desktop/fertilsan_app/src/assets/nopersf.png";
-import sugar from "/Users/mirzet/Desktop/fertilsan_app/src/assets/sugar.png";
-import lactosef from "/Users/mirzet/Desktop/fertilsan_app/src/assets/lactosef.png";
+import fillers from "/src/assets/fillers.png";
+import glutenf from "/src/assets/glutenf.png";
+import nopersf from "/src/assets/nopersf.png";
+import sugar from "/src/assets/sugar.png";
+import lactosef from "/src/assets/lactosef.png";
 
-import gelatin from "/Users/mirzet/Desktop/fertilsan_app/src/assets/gelatin.png";
-import animalo from "/Users/mirzet/Desktop/fertilsan_app/src/assets/animalo.png";
-import flavours from "/Users/mirzet/Desktop/fertilsan_app/src/assets/flavours.png";
-import vegano from "/Users/mirzet/Desktop/fertilsan_app/src/assets/vegano.png";
-import gluteno from "/Users/mirzet/Desktop/fertilsan_app/src/assets/gluteno.png";
+import gelatin from "/src/assets/gelatin.png";
+import animalo from "/src/assets/animalo.png";
+import flavours from "/src/assets/flavours.png";
+import vegano from "/src/assets/vegano.png";
+import gluteno from "/src/assets/gluteno.png";
 
 
 
