@@ -4,33 +4,10 @@ import GetStarted from "./GetStarted";
 import { tablete } from "../assets";
 
 const Hero = () => {
-
-  const [marginTop, setMarginTop] = useState(0);
-
-  useEffect(() => {
-    const handleResize = () => {
-      const windowWidth = window.innerWidth;
-      const isMobile = windowWidth <= 768; 
-
-      if (isMobile) {
-        setMarginTop(32); 
-      } else {
-        setMarginTop(0); 
-      }
-    };
-
-    window.addEventListener('resize', handleResize);
-    handleResize();
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
   return (
     <section
       id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY} sm:mt-16 lg:mt-24 xl:mt-22`}
+      className={`flex md:flex-row flex-col ${styles.paddingY} sm:mt-33 lg:mt-14 xl:mt-22`}
     >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
