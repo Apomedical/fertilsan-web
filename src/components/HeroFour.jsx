@@ -26,7 +26,7 @@ const HeroFour = () => {
       </div>
 
       <div className={`ss:hidden ${styles.flexCenter}`}>
-        <GetStarted />
+        {/* <GetStarted /> */}
       </div>
 
       <div
@@ -36,7 +36,7 @@ const HeroFour = () => {
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">Suplementi</span> za{" "}
-            <span className="text-white">Buduce</span> Oceve
+            <span className="text-white">Buduće</span> Očeve
           </p>
         </div>
 
