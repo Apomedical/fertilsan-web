@@ -45,11 +45,11 @@ const Testimonials = () => (
       </h4>
       <br></br>
     <div className="flex justify-center w-full feedback-container relative z-[1]">
-      <img src={vegan} alt="Picture 1" className="mx-4" />
-      <img src={lactose} alt="Picture 2" className="mx-4" />
-      <img src={nopers} alt="Picture 3" className="mx-4" />
-      <img src={gluten} alt="Picture 4" className="mx-4" />
-      <img src={noanimal} alt="Picture 5" className="mx-4" />
+      <img src={vegan} alt="Picture 1" className="mx-4 sm:mx-4"  />
+      <img src={lactose} alt="Picture 2" className="mx-4 sm:mx-4" />
+      <img src={nopers} alt="Picture 3" className="mx-4 sm:mx-4" />
+      <img src={gluten} alt="Picture 4" className="mx-4 sm:mx-4" />
+      <img src={noanimal} alt="Picture 5" className="mx-4 sm:mx-4" />
     </div>
     <br>
     </br>
