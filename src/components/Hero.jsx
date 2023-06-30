@@ -45,7 +45,7 @@ const Hero = () => {
         <img
           src={tablete}
           alt="billing"
-          className="w-[85%] h-[85%] relative z-[5]"
+          className="w-[85%] h-[85%] relative z-[5] xl:mt-16"
         />
 
         {/* gradient start */}
