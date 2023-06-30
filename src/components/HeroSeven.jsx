@@ -25,7 +25,7 @@ const HeroSeven = () => {
             <span className="text-gradient">Ovarifert</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-6 mr-0">
-            {/* <GetStarted /> */}
+            <GetStarted />
           </div>
         </div>
 

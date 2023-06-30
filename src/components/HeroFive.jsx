@@ -25,7 +25,7 @@ const HeroFive = () => {
             <span className="text-gradient">fertil F  faza 1</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-6 mr-0">
-            {/* <GetStarted /> */}
+            <GetStarted />
           </div>
         </div>
 
