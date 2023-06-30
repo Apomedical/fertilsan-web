@@ -22,7 +22,7 @@ const HeroFive = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            <span className="text-gradient">Fertilsan M</span>{" "}
+            <span className="text-gradient">fertil F  faza 1</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-6 mr-0">
             {/* <GetStarted /> */}
