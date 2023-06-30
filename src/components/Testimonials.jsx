@@ -58,12 +58,12 @@ const Testimonials = () => (
     Kvalitete amitamin® fertilsan F za žene
       </h4>
       <br></br>
-    <div className="flex justify-center w-full feedback-container relative z-[1]">
-      <img src={fillers} alt="Picture 1" className="mx-4" />
-      <img src={glutenf} alt="Picture 2" className="mx-4" />
-      <img src={nopersf} alt="Picture 3" className="mx-4" />
-      <img src={sugar} alt="Picture 4" className="mx-4" />
-      <img src={lactosef} alt="Picture 5" className="mx-4" />
+    <div className="flex justify-center flex-wrap w-full feedback-container relative z-[1]">
+      <img src={fillers} alt="Picture 1" className="mx-2 sm:mx-4 my-2 sm:my-0" />
+      <img src={glutenf} alt="Picture 2" className="mx-2 sm:mx-4 my-2 sm:my-0" />
+      <img src={nopersf} alt="Picture 3" className="mx-2 sm:mx-4 my-2 sm:my-0" />
+      <img src={sugar} alt="Picture 4" className="mx-2 sm:mx-4 my-2 sm:my-0" />
+      <img src={lactosef} alt="Picture 5" className="mx-2 sm:mx-4 my-2 sm:my-0" />
     </div>
     <br>
     </br>
@@ -72,12 +72,12 @@ const Testimonials = () => (
     Kvalitete amitamin® fertilsan Ovarifert za žene
       </h4>
       <br></br>
-    <div className="flex justify-center w-full feedback-container relative z-[1]">
-      <img src={gelatin} alt="Picture 1" className="mx-4" />
-      <img src={animalo} alt="Picture 2" className="mx-4" />
-      <img src={flavours} alt="Picture 3" className="mx-4" />
-      <img src={vegano} alt="Picture 4" className="mx-4" />
-      <img src={gluteno} alt="Picture 5" className="mx-4" />
+    <div className="flex justify-center flex-wrap w-full feedback-container relative z-[1]">
+      <img src={gelatin} alt="Picture 1" className="mx-2 sm:mx-4 my-2 sm:my-0" />
+      <img src={animalo} alt="Picture 2" className="mx-2 sm:mx-4 my-2 sm:my-0" />
+      <img src={flavours} alt="Picture 3" className="mx-2 sm:mx-4 my-2 sm:my-0" />
+      <img src={vegano} alt="Picture 4" className="mx-2 sm:mx-4 my-2 sm:my-0" />
+      <img src={gluteno} alt="Picture 5" className="mx-2 sm:mx-4 my-2 sm:my-0" />
     </div>
   </section>
 );
