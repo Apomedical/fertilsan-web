@@ -46,6 +46,12 @@
   );
 }
 
+@media only screen and (max-width: 767px) {
+  .pill-first {
+    margin-top: 100px;
+  }
+}
+
 .font-quality {
   font-size: 28px;
 }
