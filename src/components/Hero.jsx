@@ -7,10 +7,10 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY} sm:mt-33 lg:mt-14 xl:mt-22 md:mt-16`}
+      className={`flex md:flex-row flex-col ${styles.paddingY} sm:mt-33 lg:mt-14 xl:mt-16 `}
     >
       <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 md:mt-16`}
+        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}
       >
         <div className="flex flex-row items-center py-[1px] px-4 bg-discount-gradient rounded-[10px] mb-2 sm:mt-16">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-row justify-between items-center w-full sm:mt-16 md:mt-16">
+        <div className="flex flex-row justify-between items-center w-full sm:mt-16 ">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
             <span className="text-gradient">Fertilsan M</span>{" "}
           </h1>
@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full"></h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-0 md:mt-16`}>
+        <p className={`${styles.paragraph} max-w-[470px] mt-0 `}>
           Naučna istraživanja su potvrdila da dodaci mikronutritijenata poput
           onih koji su uključeni u amitamin fertilsan M značajno poboljšavaju
           broj spermatozoida, pokretljivost i oblik zajedno s drugim paramterima
@@ -40,7 +40,7 @@ const Hero = () => {
       </div>
 
       <div
-        className={`flex-1 flex ${styles.flexCenter} md:my-0 md:mt-16 sm:mt-16 my-10 relative`}
+        className={`flex-1 flex ${styles.flexCenter} md:my-0  sm:mt-16 my-10 relative`}
       >
         <img
           src={tablete}
