@@ -43,7 +43,7 @@ const HeroTwo = () => {
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
             <span className="text-gradient">Fertilsan M</span>{" "}
-            <span className="flex-1 font-poppins text-[12px] text-white ss:leading-[50px] leading-[37px]">U prahu</span>{" "}
+            <span className="flex-1 font-poppins text-[22px] text-white ss:leading-[50px] leading-[37px] text-gradient">U prahu</span>{" "}
           </h1>
           
           <div className="ss:flex hidden md:mr-6 mr-0">
