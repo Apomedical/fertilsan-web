@@ -4,6 +4,29 @@ import GetStarted from "./GetStarted";
 import { tablete } from "../assets";
 
 const Hero = () => {
+
+  const [marginTop, setMarginTop] = useState(0);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const windowWidth = window.innerWidth;
+      const isMobile = windowWidth <= 768; 
+
+      if (isMobile) {
+        setMarginTop(32); 
+      } else {
+        setMarginTop(0); 
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <section
       id="home"
