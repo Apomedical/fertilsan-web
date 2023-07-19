@@ -2,7 +2,7 @@ import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 import { tablete } from "../assets";
-import { tabletePrah } from "../assets";
+import { tableteStats } from "../assets";
 import Modal from "./Modal";
 
 const Hero = () => {
@@ -40,7 +40,7 @@ const Hero = () => {
           astenozoospermija)
         </p>
         <br></br>
-        <Modal buttonText="Opširnije" imageSrc={tabletePrah} />
+        <Modal buttonText="Opširnije" imageSrc={tableteStats} />
       </div>
 
       <div
