@@ -2,6 +2,7 @@ import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 import { tablete } from "../assets";
+import { tabletePrah } from "../assets";
 import Modal from "./Modal";
 
 const Hero = () => {
