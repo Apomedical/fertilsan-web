@@ -2,6 +2,7 @@ import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 import { tablete } from "../assets";
+import Modal from "./Modal";
 
 const Hero = () => {
   return (
@@ -10,42 +11,44 @@ const Hero = () => {
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
       <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}
       >
-        <div className="flex flex-row items-center py-[1px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+        {/* <div className="flex flex-row items-center py-[1px] px-4 bg-discount-gradient rounded-[10px] mb-2 pill-first xl:mt-16 md:mt-16">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">Suplementi</span> za{" "}
-            <span className="text-white">Buduce</span> Oceve
+            <span className="text-white">Buduće</span> Očeve
           </p>
-        </div>
+        </div> */}
 
-        <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+        <div className="flex flex-row justify-between items-center w-full  ">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] pill-first xl:mt-16 md:mt-16">
             <span className="text-gradient">Fertilsan M</span>{" "}
           </h1>
-          <div className="ss:flex hidden md:mr-6 mr-0">
+          <div className="ss:flex hidden md:mr-6 mr-0 pill-first xl:mt-16 md:mt-16 ">
             <GetStarted />
           </div>
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full"></h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-0`}>
+        <p className={`${styles.paragraph} max-w-[470px] mt-0 `}>
           Naučna istraživanja su potvrdila da dodaci mikronutritijenata poput
           onih koji su uključeni u amitamin fertilsan M značajno poboljšavaju
           broj spermatozoida, pokretljivost i oblik zajedno s drugim paramterima
           u analizi sperme kod muškaraca sa smanjenom plodnošću (oligospermija,
           astenozoospermija)
         </p>
+        <br></br>
+        <Modal buttonText="Opširnije" imageSrc="/src/assets/tableteStats.jpeg" />
       </div>
 
       <div
-        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+        className={`flex-1 flex ${styles.flexCenter} md:my-0   my-10 relative`}
       >
         <img
           src={tablete}
           alt="billing"
-          className="w-[100%] h-[100%] relative z-[5]"
+          className="w-[85%] h-[85%] relative z-[5] xl:mt-16 md:mt-16"
         />
 
         {/* gradient start */}

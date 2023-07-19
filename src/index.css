@@ -59,6 +59,12 @@
   );
 }
 
+@media only screen and (max-width: 767px) {
+  .pill-first {
+    margin-top: 100px;
+  }
+}
+
 .bg-black-gradient-2 {
   background: linear-gradient(
     -168.39deg,
@@ -155,4 +161,25 @@
     0 4px 8px rgba(0, 0, 0, 0.06), 0 8px 16px rgba(0, 0, 0, 0.06),
     0 16px 32px rgba(0, 0, 0, 0.06), 0 32px 64px rgba(0, 0, 0, 0.06);
   padding: 0.75rem 1.5rem;
+}
+
+
+.button-container {
+  display: inline-block;
+}
+
+.custom-button {
+  background-color: #33bbcf;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #9ad3df;
 }

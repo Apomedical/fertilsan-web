@@ -2,6 +2,7 @@ import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 import { ovarifert } from "../assets";
+import Modal from "./Modal";
 
 const HeroSeven = () => {
   return (
@@ -12,17 +13,17 @@ const HeroSeven = () => {
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
-        <div className="flex flex-row items-center py-[1px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+        {/* <div className="flex flex-row items-center py-[1px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">Suplementi</span> za{" "}
-            <span className="text-white">Buduce</span> Oceve
+            <span className="text-white">Buduće</span> Očeve
           </p>
-        </div>
+        </div> */}
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            <span className="text-gradient">Fertilsan M</span>{" "}
+            <span className="text-gradient">Ovarifert</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-6 mr-0">
             <GetStarted />
@@ -36,6 +37,8 @@ const HeroSeven = () => {
           kiseline. Dokazani su kao učinkoviti i sigurni u mnogim kliničkim
           studijama i dio su normalnog ljudskog metabolizma.
         </p>
+        <br></br>
+        <Modal buttonText="Opširnije" imageSrc="/src/assets/ovarifertStats.jpeg" imageWidth={780} imageHeight={580} />
       </div>
 
       <div

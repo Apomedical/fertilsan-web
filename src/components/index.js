@@ -10,6 +10,9 @@ import HeroFour from "./HeroFour";
 import HeroFive from "./HeroFive.jsx";
 import HeroSix from "./HeroSix";
 import Stats from "./Stats";
+import Modal from "./Modal";
+import HeroEight from "./HeroEight"
+import ParentComponent from "./ParentComponent";
 
 export {
   Navbar,
@@ -24,6 +27,11 @@ export {
   HeroFive,
   HeroSix,
   Stats,
+  Modal,
+  HeroEight,
+  ParentComponent,
+  
+
 
 
 

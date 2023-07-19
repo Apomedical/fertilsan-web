@@ -1,10 +1,10 @@
 import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
-import { argiton } from "../assets";
+import { liver } from "../assets";
 import Modal from "./Modal";
 
-const HeroFour = () => {
+const HeroSix = () => {
   return (
     <section
       id="home"
@@ -14,7 +14,7 @@ const HeroFour = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
-          src={argiton}
+          src={liver}
           alt="billing"
           className="w-[85%] h-[100%] relative z-[5]"
         />
@@ -43,7 +43,7 @@ const HeroFour = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            <span className="text-gradient">argiton cardio</span>{" "}
+            <span className="text-gradient">Liver+Milk Thistle</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-6 mr-0">
             {/* <GetStarted /> */}
@@ -52,16 +52,18 @@ const HeroFour = () => {
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full"></h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-0`}>
-          amitamin® argiton cardio je hrana za posebne medicinske namjene i
-          koristi se za dijetetsko liječenje blage hipertenzije, poremećaja
-          krvožilnog sustava (uključujući poremećaje cirkulacije krvi) u ranim
-          fazama arterioskleroze i povišene razine homocisteina.
+          Za zdravu jetru svaki dan. Vrhunska formula dodataka s ekstraktom
+          čička, ekstraktom korjena maslačka, ektraktom artičoke i holinom za
+          održavanje zdrave jetre. Proizvod sadrži holin koji doprinosi
+          normalnoj funkciji jetre, metabolizmu lipida i metabolizmu
+          homocisteina. Ugrađen je u ekstrakt čička, ekstrakt artičoke i
+          ekstrakt maslačka.
         </p>
         <br></br>
-        <Modal buttonText="Opširnije" imageSrc="/src/assets/argitonStats.jpeg" imageWidth={780} imageHeight={580} />
+        <Modal buttonText="Opširnije" imageSrc="/src/assets/liverStats.jpeg" imageWidth={780} imageHeight={580} />
       </div>
     </section>
   );
 };
 
-export default HeroFour;
+export default HeroSix;

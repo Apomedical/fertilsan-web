@@ -24,7 +24,7 @@ export const navLinks = [
   },
   {
     id: "clients",
-    title: "Gdje Naruciti?",
+    title: "Gdje Naručiti?",
   },
 ];
 

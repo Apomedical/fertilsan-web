@@ -1,7 +1,7 @@
 import styles from "./style";
-import { Business, CTA, Footer, Navbar, Stats, Testimonials, Hero, HeroTwo, HeroThree, HeroFour, HeroFive, HeroSix,  } from "./components";
+import { Business, CTA, Footer, Navbar, Stats, Testimonials, Hero, HeroTwo, HeroThree, HeroFour, HeroFive, HeroSix, Modal  } from "./components";
 import HeroSeven from "./components/HeroSeven";
-
+import HeroEight from "./components/HeroEight";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -20,6 +20,7 @@ const App = () => (
         <HeroFive />
         <HeroSix />
         <HeroSeven />
+        <HeroEight />
       </div>
     </div>
     
