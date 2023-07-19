@@ -40,7 +40,7 @@ const Hero = () => {
           astenozoospermija)
         </p>
         <br></br>
-        <Modal buttonText="Opširnije" imageSrc="{tabletePrah}" />
+        <Modal buttonText="Opširnije" imageSrc={tabletePrah} />
       </div>
 
       <div
