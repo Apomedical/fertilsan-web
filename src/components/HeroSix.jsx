@@ -2,6 +2,7 @@ import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 import { faza2 } from "../assets";
+import { faza2Stats } from "../assets";
 import Modal from "./Modal";
 
 const HeroSix = () => {
@@ -60,7 +61,7 @@ const HeroSix = () => {
           dobiti pravu količinu mikro hranjivih sastojaka od njegove majke.
         </p>
         <br></br>
-        <Modal buttonText="Opširnije" imageSrc="/src/assets/faza2Stats.png" imageWidth={780} imageHeight={580} />
+        <Modal buttonText="Opširnije" imageSrc={faza2Stats} imageWidth={780} imageHeight={580} />
       </div>
     </section>
   );

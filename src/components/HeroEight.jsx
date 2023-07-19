@@ -2,6 +2,7 @@ import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 import { liver } from "../assets";
+import { liverStats } from "../assets";
 import Modal from "./Modal";
 
 const HeroSix = () => {
@@ -60,7 +61,7 @@ const HeroSix = () => {
           ekstrakt maslačka.
         </p>
         <br></br>
-        <Modal buttonText="Opširnije" imageSrc="/src/assets/liverStats.jpeg" imageWidth={780} imageHeight={580} />
+        <Modal buttonText="Opširnije" imageSrc={liverStats} imageWidth={780} imageHeight={580} />
       </div>
     </section>
   );

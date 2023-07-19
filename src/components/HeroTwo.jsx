@@ -2,6 +2,7 @@ import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 import { tabletePrah } from "../assets";
+import { tabletePrahStats } from "../assets";
 import Modal from "./Modal";
 
 const HeroTwo = () => {
@@ -62,7 +63,7 @@ const HeroTwo = () => {
           pospiješiti zdrav razvoj spermatozoida.
         </p>
         <br></br>
-        <Modal buttonText="Opširnije" imageSrc="/src/assets/tabletePrahStats.jpeg" imageWidth={780} imageHeight={580} />
+        <Modal buttonText="Opširnije" imageSrc={tabletePrahStats} imageWidth={780} imageHeight={580} />
       </div>
     </section>
   );

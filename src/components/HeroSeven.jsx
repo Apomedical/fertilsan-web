@@ -2,6 +2,7 @@ import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 import { ovarifert } from "../assets";
+import { ovarifertStats } from "../assets";
 import Modal from "./Modal";
 
 const HeroSeven = () => {
@@ -38,7 +39,7 @@ const HeroSeven = () => {
           studijama i dio su normalnog ljudskog metabolizma.
         </p>
         <br></br>
-        <Modal buttonText="Opširnije" imageSrc="/src/assets/ovarifertStats.jpeg" imageWidth={780} imageHeight={580} />
+        <Modal buttonText="Opširnije" imageSrc={ovarifertStats} imageWidth={780} imageHeight={580} />
       </div>
 
       <div

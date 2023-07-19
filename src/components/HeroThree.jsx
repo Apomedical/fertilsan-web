@@ -2,6 +2,7 @@ import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 import { boswellia } from "../assets";
+import { boswelliaStats } from "../assets";
 import Modal from "./Modal";
 
 const HeroThree = () => {
@@ -39,7 +40,7 @@ const HeroThree = () => {
           pakiranje: amitamin® Boswellia serrata uvijek je dobar izbor!
         </p>
         <br></br>
-        <Modal buttonText="Opširnije" imageSrc="/src/assets/boswelliaStats.jpeg" imageWidth={780} imageHeight={580} />
+        <Modal buttonText="Opširnije" imageSrc={boswelliaStats} imageWidth={780} imageHeight={580} />
       </div>
 
       <div

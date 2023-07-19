@@ -2,6 +2,7 @@ import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 import { faza1 } from "../assets";
+import { faza1Stats } from "../assets";
 import Modal from "./Modal";
 
 const HeroFive = () => {
@@ -39,7 +40,7 @@ const HeroFive = () => {
           žele zatrudnjeti i do trećeg mjeseca trudnoće.
         </p>
         <br></br>
-        <Modal buttonText="Opširnije" imageSrc="/src/assets/faza1Stats.png" imageWidth={780} imageHeight={580} />
+        <Modal buttonText="Opširnije" imageSrc={faza1Stats} imageWidth={780} imageHeight={580} />
       </div>
 
       <div

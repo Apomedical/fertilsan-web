@@ -2,6 +2,7 @@ import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 import { argiton } from "../assets";
+import { argitonStats } from "../assets";
 import Modal from "./Modal";
 
 const HeroFour = () => {
@@ -58,7 +59,7 @@ const HeroFour = () => {
           fazama arterioskleroze i povišene razine homocisteina.
         </p>
         <br></br>
-        <Modal buttonText="Opširnije" imageSrc="/src/assets/argitonStats.jpeg" imageWidth={780} imageHeight={580} />
+        <Modal buttonText="Opširnije" imageSrc={argitonStats} imageWidth={780} imageHeight={580} />
       </div>
     </section>
   );
